@@ -1,0 +1,8 @@
+.stack-work/
+SimpleLambda.cabal
+*~
+
+{-# START_FILE stack.yml#-}
+packages:
+- .
+extra-deps: [test-invariant-0.4.5.0]
